@@ -1,7 +1,16 @@
 //Ejercicio Lógica 1
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 
-let numero1 = prompt("Ingrese el primer numero");
-let numero2 = prompt("Ingrese el segundo numero");
-let numero3 = prompt("Ingrese el tercer numero");
+document.getElementById("boton").addEventListener("click", () =>{
+    event.preventDefault();
 
+    let numero1 = document.getElementById("primer-numero").value;
+    let numero2 = document.getElementById("segundo-numero").value;
+    let numero3 = document.getElementById("tercer-numero").value;
+
+    let listaOrdenada = [];
+
+    if (){
+        
+    }
+})
